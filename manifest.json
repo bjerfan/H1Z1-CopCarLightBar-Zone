@@ -1,0 +1,257 @@
+{
+  "defaultRoot": "C:\\Games\\ROTK\\Resources\\Assets",
+  "assets": [
+    {
+      "name": "Common_Vehicle_PoliceCar01_LOD1.dme",
+      "pack": "assets_x64_0.pack2",
+      "id": "350441883426457612",
+      "flags": 16,
+      "original": {
+        "file": "00-original.bin",
+        "size": 557826,
+        "crc": 4172653861,
+        "sha256": "d5062a6d0675cf51f0d720275eb782cea3933fff2c9aabd5cee13818265d94f3"
+      },
+      "patched": {
+        "file": "00-patched.bin",
+        "size": 557826,
+        "crc": 1589486121,
+        "sha256": "c6f00fbcdb7ba82999e63a3b3db58023e5fe9310f6f66993b70707922366f67c"
+      }
+    },
+    {
+      "name": "Common_Vehicle_PoliceCar01_Attachments_SirenLights_LOD0.dme",
+      "pack": "assets_x64_0.pack2",
+      "id": "3063197732713620894",
+      "flags": 16,
+      "original": {
+        "file": "01-original.bin",
+        "size": 4025,
+        "crc": 3978522220,
+        "sha256": "838055b44f26d74dcfc344ff6a8752c063900cb0a9242fa225cd25dcb9ebb8c1"
+      },
+      "patched": {
+        "file": "01-patched.bin",
+        "size": 4025,
+        "crc": 2676085589,
+        "sha256": "7539a29e41b4db8cbec0c2d52bd11115be48979f37905e79c2fbe4440da12110"
+      }
+    },
+    {
+      "name": "Common_Vehicle_PoliceCar01_LOD0.dme",
+      "pack": "assets_x64_0.pack2",
+      "id": "3592149030306272530",
+      "flags": 16,
+      "original": {
+        "file": "02-original.bin",
+        "size": 763938,
+        "crc": 2146321545,
+        "sha256": "b38f5b6557d9d598231ac1a3f15dca02057289ba170a5eed0028e0330b7d3cea"
+      },
+      "patched": {
+        "file": "02-patched.bin",
+        "size": 763938,
+        "crc": 2892637495,
+        "sha256": "1e727a926ac77ca0b31f2fef3265e5386cf5560fd71bf3198fc827d7600733d3"
+      }
+    },
+    {
+      "name": "Common_Vehicle_PoliceCar01_LOD2.dme",
+      "pack": "assets_x64_0.pack2",
+      "id": "6615835775397719854",
+      "flags": 16,
+      "original": {
+        "file": "03-original.bin",
+        "size": 237042,
+        "crc": 4004656035,
+        "sha256": "10498f0b43912b2df30b736aaeb30bc475a25afd9faafa326c7ed456aa8efc85"
+      },
+      "patched": {
+        "file": "03-patched.bin",
+        "size": 237042,
+        "crc": 1274658502,
+        "sha256": "72afe55cdc02349812316001deb315d38fc6b402ec4874d341c7d3aacc0608f3"
+      }
+    },
+    {
+      "name": "Common_Vehicle_PoliceCar01_LOD3.dme",
+      "pack": "assets_x64_0.pack2",
+      "id": "7986234669613986352",
+      "flags": 16,
+      "original": {
+        "file": "04-original.bin",
+        "size": 65011,
+        "crc": 3902029535,
+        "sha256": "e2b16dd14d7fa6892848e3be4f43856eed220d70555132cb23d1f1bc15445d38"
+      },
+      "patched": {
+        "file": "04-patched.bin",
+        "size": 65011,
+        "crc": 3054769962,
+        "sha256": "dcfc889a8adb851f4b1e23bf6fb23ec32ecccc88eced45f2ef1db720b9e32826"
+      }
+    },
+    {
+      "name": "Common_Vehicle_PoliceCar_Tintable_01_LOD3.dme",
+      "pack": "assets_x64_0.pack2",
+      "id": "11022075605134725235",
+      "flags": 16,
+      "original": {
+        "file": "05-original.bin",
+        "size": 59151,
+        "crc": 3103761268,
+        "sha256": "bd058ea1fd97c660ae5dab6cd1b8bab24de11372a6ec38cfbd67ac90ec4a2c4a"
+      },
+      "patched": {
+        "file": "05-patched.bin",
+        "size": 59151,
+        "crc": 1473222006,
+        "sha256": "29555d415fcc0fd2ff92cec378dd3f7189c22a009a3c442fa84f573fba8e367c"
+      }
+    },
+    {
+      "name": "Common_Vehicle_PoliceCar_Tintable_01_LOD2.dme",
+      "pack": "assets_x64_0.pack2",
+      "id": "12534259753203469677",
+      "flags": 16,
+      "original": {
+        "file": "06-original.bin",
+        "size": 194040,
+        "crc": 1704340996,
+        "sha256": "bc034974afd5cff252b47aae4b0a628d61384338c4759446b1bb0a195dde9ae4"
+      },
+      "patched": {
+        "file": "06-patched.bin",
+        "size": 194040,
+        "crc": 3988760729,
+        "sha256": "bd298d03d1d6a9d424e48ce0f1471e52d505725048596b60ded46f17bdc84447"
+      }
+    },
+    {
+      "name": "Common_Vehicle_PoliceCar_Tintable_01_LOD0.dme",
+      "pack": "assets_x64_0.pack2",
+      "id": "14410227711012681553",
+      "flags": 16,
+      "original": {
+        "file": "07-original.bin",
+        "size": 826017,
+        "crc": 2366180185,
+        "sha256": "c6c96b44c47a80b6fc1730ffbdb33d02e9e62b8cb4ba4420d05c147ddcf39d10"
+      },
+      "patched": {
+        "file": "07-patched.bin",
+        "size": 826017,
+        "crc": 640741866,
+        "sha256": "0893c9a9ad700990b367e38b242dbfaafe0ba6f29944fa38128ca1f26c576fe7"
+      }
+    },
+    {
+      "name": "Common_Vehicle_PoliceCar_Tintable_01_LOD1.dme",
+      "pack": "assets_x64_0.pack2",
+      "id": "17509868128861973071",
+      "flags": 16,
+      "original": {
+        "file": "08-original.bin",
+        "size": 424988,
+        "crc": 308022849,
+        "sha256": "77b6f36f0ffe4b99ccc30a4d89de3f517e1264d920583415bac265e02890b3f0"
+      },
+      "patched": {
+        "file": "08-patched.bin",
+        "size": 424988,
+        "crc": 1181281549,
+        "sha256": "1203589e4bc77c6727e4aef245689cc5cfb012724a338f44033f9b84cb7bd60e"
+      }
+    },
+    {
+      "name": "Common_Vehicle_PoliceCar01_Attachments_SirenLights_LOD0.dme",
+      "pack": "assets_x64_6.pack2",
+      "id": "3063197732713620894",
+      "flags": 1,
+      "original": {
+        "file": "09-original.bin",
+        "size": 2183,
+        "crc": 3323929909,
+        "sha256": "18003251ba139faa4e94375ee3754fc1e1e8c148dce245f98dee8ea846d7253b"
+      },
+      "patched": {
+        "file": "09-patched.bin",
+        "size": 1881,
+        "crc": 2639306551,
+        "sha256": "18a6e4ed4cde46a63996c983066694f8cb3a94d61a2622f7be0ab9548141cb92"
+      }
+    },
+    {
+      "name": "Vehicle_PoliceCar01_Attachments_SirenLights_LOD0.dme",
+      "pack": "assets_x64_7.pack2",
+      "id": "16003502870414132721",
+      "flags": 1,
+      "original": {
+        "file": "10-original.bin",
+        "size": 1494,
+        "crc": 198637553,
+        "sha256": "2275a52d02e3e579650959a1ebe05214393749da98b40f0a32d0a9444e363f4d"
+      },
+      "patched": {
+        "file": "10-patched.bin",
+        "size": 1210,
+        "crc": 1052535660,
+        "sha256": "a1386d5d252f009d2af02bf667654e5156dd944426eeafad936fb32743bd3545"
+      }
+    },
+    {
+      "name": "materials_3.xml",
+      "pack": "data_x64_0.pack2",
+      "id": "3876234176145087398",
+      "flags": 1,
+      "original": {
+        "file": "11-original.bin",
+        "size": 14080,
+        "crc": 302984811,
+        "sha256": "a4273f09bba85bfe3f3a2e2ee4f85ada460301d3c3721f467d54e0cb0bce351b"
+      },
+      "patched": {
+        "file": "11-patched.bin",
+        "size": 13235,
+        "crc": 1905133725,
+        "sha256": "8cf98699d898bf6aeff863a0a9112dcc4f3c1297845a98db6603d4637e0a7a13"
+      }
+    },
+    {
+      "name": "fog.dx11efb",
+      "pack": "assets_x64_0.pack2",
+      "id": "4028193799361969244",
+      "flags": 16,
+      "original": {
+        "file": "12-original.bin",
+        "size": 96480,
+        "crc": 3156312909,
+        "sha256": "9642602d18908260cdb2706d7b01eddf732a910a74bf4175cf0c9fbc7bffec5a"
+      },
+      "patched": {
+        "file": "12-patched.bin",
+        "size": 96480,
+        "crc": 3962037621,
+        "sha256": "051f79a44ef158e71cbd1c0ed0eb64e07877709168d5f97494b68c5901f85484"
+      }
+    },
+    {
+      "name": "fog.dx11efb",
+      "pack": "assets_x64_4.pack2",
+      "id": "4028193799361969244",
+      "flags": 1,
+      "original": {
+        "file": "13-original.bin",
+        "size": 11703,
+        "crc": 3748390175,
+        "sha256": "1314dd32d50a1d28a29b1cbcba575631725eb600a3409753a376039b6643375b"
+      },
+      "patched": {
+        "file": "13-patched.bin",
+        "size": 11612,
+        "crc": 738106808,
+        "sha256": "32094ae5a14e9e87ee94f03d1c87386d8592bdf9226410f673b74ff21de58e8e"
+      }
+    }
+  ]
+}
