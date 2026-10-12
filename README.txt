@@ -4,10 +4,12 @@ QUICK GUIDE
 1. Extract the entire ZIP folder.
 2. Close ROTK/H1Z1.
 3. Double-click "Apply Patches.cmd".
-4. Wait for SUCCESS (or "Already in the requested state"), then start the game.
+4. Select your ROTK installation folder (e.g. C:\Games\ROTK) and click OK.
+5. Wait for SUCCESS (or "Already in the requested state"), then start the game.
 
 Removes the cop car roof light bar and reduces toxic-gas haze.
-Default game folder: C:\Games\ROTK\Resources\Assets
+The script finds Resources\Assets inside your selected game folder.
+Apply, Restore, and Check ask each time. Cancel makes no changes.
 
 To undo: close the game and run "Restore Original.cmd".
 To check: run "Check patch status.cmd".

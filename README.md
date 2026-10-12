@@ -9,9 +9,10 @@ A Windows one-click patch package for ROTK. Removes the cop car roof light bar a
 1. Download the project ZIP and extract the entire folder.
 2. Close ROTK/H1Z1.
 3. Double-click **Apply Patches.cmd**.
-4. Wait for **SUCCESS** or **Already in the requested state**, then start the game.
+4. Select your ROTK installation folder (for example `C:\Games\ROTK`), then click **OK**. The script finds `Resources\Assets` and starts automatically.
+5. Wait for **SUCCESS** or **Already in the requested state**, then start the game.
 
-The default game folder is `C:\Games\ROTK\Resources\Assets`.
+Apply, Restore, and Check ask you to select the game folder each time. Cancel exits without changing files; an invalid folder is rejected before patching.
 Keep `Patch.ps1`, `manifest.json`, and the `files` folder together.
 Uses built-in Windows PowerShell; no Python or extra downloads needed.
 

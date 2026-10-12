@@ -1,4 +1,4 @@
 @echo off
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Patch.ps1" -Mode Apply
+powershell.exe -STA -NoProfile -ExecutionPolicy Bypass -File "%~dp0Patch.ps1" -Mode Apply
 echo.
 pause

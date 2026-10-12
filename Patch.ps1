@@ -39,8 +39,30 @@ $streams=@{}
 $completed=New-Object System.Collections.Generic.List[object]
 try {
     $manifest=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'manifest.json') -Raw | ConvertFrom-Json
-    if (!$AssetsPath) { $AssetsPath=$manifest.defaultRoot }
+    if (!$AssetsPath) {
+        Add-Type -AssemblyName System.Windows.Forms
+        $picker=New-Object System.Windows.Forms.FolderBrowserDialog
+        try {
+            $picker.Description='Select your ROTK installation folder (the folder containing Resources).'
+            $picker.ShowNewFolderButton=$false
+            Write-Host 'Select your ROTK installation folder in the folder picker.'
+            if ($picker.ShowDialog() -ne [System.Windows.Forms.DialogResult]::OK) {
+                Write-Host 'Cancelled. No files have been changed.'
+                exit 0
+            }
+            $AssetsPath=Join-Path $picker.SelectedPath 'Resources\Assets'
+        } finally { $picker.Dispose() }
+    }
     $AssetsPath=[IO.Path]::GetFullPath($AssetsPath)
+    if (!(Test-Path -LiteralPath $AssetsPath -PathType Container)) {
+        throw 'The selected folder does not contain Resources\Assets. Run again and select the ROTK installation folder.'
+    }
+    foreach ($packName in ($manifest.assets.pack | Select-Object -Unique)) {
+        if (!(Test-Path -LiteralPath (Join-Path $AssetsPath $packName) -PathType Leaf)) {
+            throw "Missing required archive: $packName. Select the correct ROTK installation folder. No files have been changed."
+        }
+    }
+    Write-Host "Assets folder: $AssetsPath"
     Assert-Closed
     $plans=New-Object System.Collections.Generic.List[object]
     foreach ($group in ($manifest.assets | Group-Object pack)) {
