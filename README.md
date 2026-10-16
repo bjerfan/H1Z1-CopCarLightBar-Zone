@@ -38,11 +38,6 @@ Repeated runs skip installed changes. After a game repair or update, run Apply a
 
 Actual extracted model geometry: original above, patched below. This is an untextured wireframe preview, not an in-game screenshot. A verified in-game gas comparison is not included yet.
 
-## Different install folder
-
-```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Patch.ps1 -Mode Apply -AssetsPath "D:\Games\ROTK\Resources\Assets"
-```
 
 ## Asset changes and rules
 
