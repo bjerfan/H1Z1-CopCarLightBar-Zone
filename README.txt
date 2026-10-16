@@ -3,9 +3,10 @@ ROTK - COP CAR AND LIGHT GAS PATCHES
 QUICK GUIDE
 1. Extract the entire ZIP folder.
 2. Close ROTK/H1Z1.
-3. Double-click "Apply Patches.cmd".
-4. Select your ROTK installation folder (e.g. C:\Games\ROTK) and click OK.
-5. Wait for SUCCESS (or "Already in the requested state"), then start the game.
+3. In the launcher, under Custom Assets, uncheck "Update the custom assets automatically" to prevent automatic asset updates from reverting the patches.
+4. Double-click "Apply Patches.cmd".
+5. Select your ROTK installation folder (e.g. C:\Games\ROTK) and click OK.
+6. Wait for SUCCESS (or "Already in the requested state"), then start the game.
 
 Removes the cop car roof light bar and reduces toxic-gas haze.
 The script finds Resources\Assets inside your selected game folder.
